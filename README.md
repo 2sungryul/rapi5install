@@ -8,6 +8,15 @@
 - /boot/firmware/ 폴더 아래에 있는 파일을 메모장으로 편집하면 됨
 ```
 
+## 3핀 디버그 uart 커넥터 활성화
+```
+/boot/firmware/cmdline.txt
+console=ttyAMA10,115200 맨앞에 추가
+/boot/firmware/config.txt 
+enable_uart=1 추가
+```
+
+
 ## UART포트로 부팅시 GUI출력 비활성화 ->cmdline.txt 파일수정
 ```
 $ sudo nano /boot/firmware/cmdline.txt
