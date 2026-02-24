@@ -21,7 +21,8 @@ enable_uart=1 추가
 ```
 $ sudo nano /boot/firmware/cmdline.txt
 splash 옵션 : 그래픽 로딩 화면을 출력
-splash 옵션을 삭제
+quiet 옵션 : 부팅 로그를 숨김 
+splash,quiet 옵션을 삭제
 ```
 ## USB 전력 최대화 
 
