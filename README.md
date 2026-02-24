@@ -16,7 +16,6 @@ console=ttyAMA10,115200 맨앞에 추가
 enable_uart=1 추가
 ```
 
-
 ## UART포트로 부팅시 GUI출력 비활성화 ->cmdline.txt 파일수정
 ```
 $ sudo nano /boot/firmware/cmdline.txt
@@ -24,6 +23,12 @@ splash 옵션 : 그래픽 로딩 화면을 출력
 quiet 옵션 : 부팅 로그를 숨김 
 splash,quiet 옵션을 삭제
 ```
+# 카메라 설치
+- camera 연결시 cam1 커넥터 이용할것
+- 카메라사용시 media 그룹 추가해야함
+- libcamera 소스빌드방식으로 설치해야함
+- https://billowy-water-a69.notion.site/raspberry-5-IMX219-OS-Ubuntu24-04-2f7d17f8526780aeb388d931438ef32f
+
 ## USB 전력 최대화 
 
 ```
