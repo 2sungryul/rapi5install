@@ -64,21 +64,17 @@ $ df -h
 
 ## How to create udev rules for rplidar C1 and U2D2 on Raspberry Pi5
 
+```bash
 $ wget  https://raw.githubusercontent.com/2sungryul/simulation/refs/heads/main/usb2uart.rules
-
 $ cp usb2uart.rules /etc/udev/rules.d
-
 $ sudo service udev reload
-
 $ sudo service udev restart
-
 $ sudo reboot
-
 $ ls -l /dev/rplidar
-
+```
 ![image](https://github.com/2sungryul/simulation/assets/67367753/e7b3d3a6-798b-4614-bf43-a63a0d0acb5f)
-
+```bash
 $ ls -l /dev/u2d2
-
+```
 ![image](https://github.com/2sungryul/simulation/assets/67367753/c5de696c-532a-4518-8632-a345c956452c)
 
