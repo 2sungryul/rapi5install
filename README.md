@@ -1,5 +1,13 @@
 # rapi5install
 
+## Raspberry pi5 설정파일 cmdline.txt,config.txt 파일수정방법
+
+```
+- 윈도우즈에서 SD카드를 연결
+- 파일탐색기에서 SD카드 검색
+- /boot/firmware/ 폴더 아래에 있는 파일을 메모장으로 편집하면 됨
+```
+
 ## UART포트로 부팅시 GUI출력 비활성화 ->cmdline.txt 파일수정
 ```
 $ sudo nano /boot/firmware/cmdline.txt
