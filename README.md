@@ -2,14 +2,14 @@
 
 ## GUI출력 비활성화 ->cmdline.txt 파일수정
 ```
-sudo nano /boot/firmware/cmdline.txt
+$ sudo nano /boot/firmware/cmdline.txt
 splash 옵션 : 그래픽 로딩 화면을 출력
 splash 옵션을 삭제
 ```
 ## USB 전력 최대화 
 
 ```
-sudo nano /boot/firmware/config.txt
+$ sudo nano /boot/firmware/config.txt
 usb_max_current_enable=1
 max_usb_current=1
 ```
@@ -30,5 +30,5 @@ $ sudo apt install lm-sensors
 $ sudo sensors-detect
 $ sensors
 ```
---- 50이하로 나와야함
+- 50도씨 이하로 나와야함
 
