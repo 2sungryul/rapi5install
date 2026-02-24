@@ -1,6 +1,6 @@
 # rapi5install
 
-## GUI출력 비활성화 ->cmdline.txt 파일수정
+## UART포트로 부팅시 GUI출력 비활성화 ->cmdline.txt 파일수정
 ```
 $ sudo nano /boot/firmware/cmdline.txt
 splash 옵션 : 그래픽 로딩 화면을 출력
