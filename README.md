@@ -72,9 +72,10 @@ $ sudo service udev restart
 $ sudo reboot
 $ ls -l /dev/rplidar
 ```
-![image](https://github.com/2sungryul/simulation/assets/67367753/e7b3d3a6-798b-4614-bf43-a63a0d0acb5f)
+<img width="561" height="45" alt="image" src="https://github.com/user-attachments/assets/2012111e-3504-4709-ab78-3198c66778b3" />
+
 ```bash
 $ ls -l /dev/u2d2
 ```
-![image](https://github.com/2sungryul/simulation/assets/67367753/c5de696c-532a-4518-8632-a345c956452c)
+<img width="563" height="42" alt="image" src="https://github.com/user-attachments/assets/48b0402b-47f0-4453-ba7d-ce2d12db4b66" />
 
