@@ -79,3 +79,12 @@ $ ls -l /dev/u2d2
 ```
 <img width="563" height="42" alt="image" src="https://github.com/user-attachments/assets/48b0402b-47f0-4453-ba7d-ce2d12db4b66" />
 
+## Wifi connect
+
+```
+공유기 목록 검색
+$ nmcli device wifi list
+
+공유기 접속
+$ sudo nmcli device wifi connect "jetson5G" password "jetson4701"
+```
