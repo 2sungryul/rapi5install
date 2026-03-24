@@ -86,7 +86,7 @@ $ ls -l /dev/u2d2
 $ nmcli device status
 
 공유기 목록 검색
-$ nmcli device wifi list
+$ sudo nmcli device wifi list
 
 공유기 접속
 $ sudo nmcli device wifi connect "jetson5G" password "jetson4701"
