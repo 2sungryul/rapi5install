@@ -82,6 +82,9 @@ $ ls -l /dev/u2d2
 ## Wifi connect
 
 ```
+네트워크 장치의 목록 및 상태를 표시
+$ nmcli device status
+
 공유기 목록 검색
 $ nmcli device wifi list
 
