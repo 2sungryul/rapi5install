@@ -89,5 +89,5 @@ $ nmcli device status
 $ sudo nmcli device wifi list
 
 공유기 접속
-$ sudo nmcli device wifi connect "jetson5G" password "jetson4701"
+$ sudo nmcli device wifi connect "jetson5G" password "jxxxxxxxx1"
 ```
